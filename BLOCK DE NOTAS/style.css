@@ -1,0 +1,19 @@
+:root{
+    --fondoColor:# rgb(67, 67, 217);
+    --rosaa:#rgb(255, 151, 255);
+    --box:#0e0b3d;
+}
+body{
+    background-color:rgb(255, 151, 255);
+}
+
+button{
+    box-shadow: 5px #0e0b3d;
+    background-color: rgb(67, 67, 217);
+}
+
+img{
+    width: 260px;
+    height: 200px;
+   
+}

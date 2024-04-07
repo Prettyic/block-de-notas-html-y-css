@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOCK DE NOTAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="./img/jungkook.jpg" alt="jungkook">
+
+    <div class="list roundBorder">
+        <div class="date">
+            <div class="dateRigth"></div>
+
+            <div>
+                <div id="dateMonth"></div>
+                <div id="dateYear"></div>
+            </div>
+
+            <div id="dateText"></div>
+        </div>
+    </div>
+
+    <form onsubmit="addNewTask (event)">
+        <input type="text" name="taskText" autocomplete="off" placeholder="Nueva tarea" class="roundBorder">
+        <button type="submit" class="addTaskButton">+</button>
+        <button type="button" class="orderbutton roundBorder" onclick=" renderOrderedTasks()"> Ordenar</button>
+    </form>
+
+    <div id="tasksContainer"></div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
